@@ -1,9 +1,9 @@
 <template>
     <div>
-        <div v-for="todo in todos">
-            <h3>{{ todo.title }}</h3>
+        <div v-for="todo in todos" v-bind:key="todo.id">
+            <h3>{{ todo.id }}</h3>
         </div>
-    </div>
+    </div> 
 </template>
 
 <script>
