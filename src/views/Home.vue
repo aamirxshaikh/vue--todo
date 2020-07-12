@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    <Header />
     <AddTodo
     @add-todo="addTodo"
     />
@@ -13,7 +12,6 @@
 
 <script>
 import Todos from '../components/Todos'
-import Header from '../components/layout/Header'
 import AddTodo from '../components/AddTodo'
 import axios from 'axios'
 
@@ -21,7 +19,6 @@ export default {
   name: 'Home',
   components: {
     Todos,
-    Header,
     AddTodo
   },
 
