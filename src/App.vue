@@ -65,4 +65,18 @@ export default {
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.4;
   }
+
+  .btn {
+      display: inline-block;
+      border: none;
+      background: #555;
+      color: #FFF;
+      padding: 7px 20px;
+      cursor: pointer;
+  }
+
+  .btn:hover {
+      background: #666;
+      transition: 1s;
+  }
 </style>
